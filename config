@@ -216,8 +216,8 @@ exec dex -a
 ############################
 
 ### Bind Audio via AudioKeys on Keyboard
-#bindsym XF86AudioRaiseVolume exec amixer -M -q set Master 5%+ unmute
-#bindsym XF86AudioLowerVolume exec amixer -M -q set Master 5%- unmute
+bindsym XF86AudioRaiseVolume exec amixer -M -q set Master 5%+ unmute
+bindsym XF86AudioLowerVolume exec amixer -M -q set Master 5%- unmute
 #bindsym XF86AudioMute exec bash ~/.config/i3/toggle-mute.sh
 
 ### Bind gaps of windows to < and >
