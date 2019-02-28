@@ -218,11 +218,16 @@ exec dex -a
 ### Bind Audio via AudioKeys on Keyboard
 bindsym XF86AudioRaiseVolume exec amixer -M -q set Master 5%+ unmute
 bindsym XF86AudioLowerVolume exec amixer -M -q set Master 5%- unmute
-#bindsym XF86AudioMute exec bash ~/.config/i3/toggle-mute.sh
+bindsym XF86AudioMute exec amixer -D pulse set Master +1 toggle
+bindsym XF86AudioMicMute exec amixer -D pulse set Capture toggle
+bindsym XF86MonBrightnessDown exec xbacklight -dec 5
+bindsym XF86MonBrightnessUp exec xbacklight -inc 5
+
 
 ### Bind gaps of windows to < and >
 bindsym $mod+less gaps outer current plus 5; gaps inner current plus 5
 bindsym $mod+Shift+greater gaps outer current minus 5; gaps inner current minus 5
+
 
 ### lock on Win+l
 bindsym $mod+l exec ~/.config/i3/lock-screen.sh

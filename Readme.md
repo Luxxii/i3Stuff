@@ -14,4 +14,5 @@ Feel free to copy and modify them to your needs.
 * py3status
 * gsimplecal
 * feh (or something else pywal can handle)
+* acpilight (xbacklight -> see repo for more info)
 
