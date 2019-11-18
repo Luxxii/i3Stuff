@@ -8,7 +8,7 @@ Feel free to copy and modify them to your needs.
 * image-magick
 * pavucontrol
 * i3lock
-* compton
+* picom
 * dex
 * python-pywal
 * py3status
