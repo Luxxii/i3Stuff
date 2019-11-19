@@ -183,7 +183,7 @@ bar {
 exec "setxkbmap -layout de"
 
 ### Compton (for mor nice graphics)
-exec compton -Cb
+exec picom -Cb
 
 ### Set outer gaps to a default value
 for_window [class=".*"] border pixel 1
