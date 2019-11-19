@@ -211,6 +211,9 @@ exec_always ~/.config/i3/wallpaper.sh
 ### Start *.desktop files (autostart)
 exec dex -a
 
+### Start all Scripts in ~/Scripts (Like Auto-Rotation on Tablet or whatever you need for your startUp)
+exec ~/.config/i3/executeScripts.sh
+
 ############################
 # Hot Keys
 ############################
